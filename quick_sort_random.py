@@ -1,3 +1,5 @@
+import random
+
 def qsort_random(array, left, right):    
     p = random.choice(array[left:right+1])
     i,j = left, right
